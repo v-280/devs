@@ -1,0 +1,37 @@
+
+let user={
+name:"Vrinda";
+age:20;
+}
+function greet(user){
+console.log("Hi "+user.name+" your age is "+user.age);
+}
+greet(user);
+
+//assignment 2  of complex...
+let user2={
+name:"Vrinda";
+age:20;
+gender:"Ms."
+}
+function greet(user){
+console.log("Hi "+gender+" "+user.name+" ,your age is "+user.age);
+}
+greet(user2);
+//assignment 3 of complex....
+let user3={
+name:"Vrinda";
+age:20;
+gender:"Ms."
+}
+function greet(user){
+console.log("Hi "+gender+" "+user.name+" ,your age is "+user.age);
+if(user.age>18){
+console.log("You are legal to vote");
+}
+else{
+console.log("You are not legal to vote");
+}
+}
+greet(user3);
+
