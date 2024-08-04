@@ -1,0 +1,6 @@
+let color="purple";
+const height=157.48;
+var likePizza=true;
+console.log(color);
+console.log(height);
+console.log(likePizza);
