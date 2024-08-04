@@ -1,0 +1,10 @@
+function sum(num){
+let s=0;
+while(num!=0){
+s+=num;
+num--;
+
+}
+return s;
+}
+console.log(sum(5));
