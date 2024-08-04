@@ -1,0 +1,21 @@
+const users = [{
+		name: "Vrinda",
+		age: 20
+	}, {
+		name: "Vasudev",
+		age: 22
+	},{
+ name:"Anju",
+ age:49}
+ 
+]
+function morethanEighteen(user){
+let arr=[];
+for(let i=0;i<user.length;i++){
+if(user[i].age>18){
+arr.push(user[i].name);}
+
+}
+return arr;
+}
+console.log(morethanEighteen(users));
