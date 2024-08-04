@@ -1,0 +1,29 @@
+const user=[
+   {
+    name:"vrinda",
+    age:20,
+  gender:"female"
+
+
+   },
+   {
+     name:"vasudev",
+     age:22,
+     gender:"male"
+   },
+   {
+     name:"Satish",
+       age:49,
+       gender:"male"
+   }
+ ];
+ let arr=[];
+ function ageAndMale(users){
+   for(let i=0;i<users.length;i++){
+ if(users[i].age>18 && users[i].gender==="male"){
+ arr.push(users[i].name);
+ }
+   }
+ }
+ ageAndMale(user);
+ console.log(arr);
