@@ -1,0 +1,14 @@
+function sum(a,b){
+return a+b;
+}
+console.log(sum(9,10));
+// if we pass string then string concatenation happens.......
+console.log(sum("Hello ","Guys"));
+
+// assignment 2 of functions......
+function canVote(age){
+if(age>18){
+return true;
+}
+return false}
+console.log(canVote(20));
